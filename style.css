@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: cadetblue;
+}
+
+header {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h2 {
+  font-size: 90%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 20%;
+  height: 100vh;
+  width: 60%;
+}
+
+section {
+  height: 45%;
+  width: 100%;
+  background-color: skyblue;
+}
+
+#cuadrado {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  position: relative;
+  left: 385px;
+  top: 140px;
+}
+
+.caja {
+  height: 35%;
+  width: 100%;
+  background-color: #fff;
+}
+.caja .controles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+}
+.caja i {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
